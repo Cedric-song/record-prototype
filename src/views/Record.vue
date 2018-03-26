@@ -83,7 +83,7 @@ export default {
     saveItem() {
       const list = JSON.parse(localStorage.getItem('list')) || []
       const item = {
-        time: this.$_moment().format('YYYY-MM-DD HH:mm:SS'),
+        time: this.$_moment().format('YYYY-MM-DD hh:mm:ss'),
         id: list.length + 1
       }
       list.push(item)
@@ -110,6 +110,8 @@ export default {
   .time {
     position: absolute;
     top: 70rem;
+    left: 0;
+    width: 100%;
   }
 
   .button {

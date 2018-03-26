@@ -16,7 +16,9 @@
 export default {
   name: 'App',
 
-  created() {}
+  created() {
+    console.log('Version 1803270126')
+  }
 }
 </script>
 
