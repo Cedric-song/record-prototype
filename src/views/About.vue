@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section>
+    <div>Author: Your Father</div>
+    <div>Email: example@qq.com</div>
+  </section>
 </template>
+
+
+<style lang="scss" scoped>
+section {
+  position: fixed;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+}
+</style>
